@@ -10,14 +10,48 @@ body{
     background-size: cover;
     background-position: left;
   }
-  
-  /* Mis trabajos */
+
+/* Mis trabajos */
   
   #Mis-trabajos .image-top {
     height: 250px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+  }
+
+  .card{
+    border:none;
+  }    
+  
+/* General button style*/
+  .btn {
+    font-size: inherit;
+    padding: 10px 50px;
+    display: inline-block;
+    margin: 5px 0px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  /* Button 4 */
+  .btn-4 {
+    background: #ffffff;
+    border-radius: 50px;
+    color: #fd92a9;
+    overflow: hidden;
+    border: 1px solid #fd92a9;
+  }
+  
+  .btn-4:hover {
+    background: #fd92a9;
+    color: #ffffff;
   }
   
   /* Contacto */
