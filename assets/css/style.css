@@ -1,6 +1,53 @@
 body{
-    font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
+
+/* BOTON */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.buttons {
+  margin: 10%;
+  text-align: center;
+}
+
+.btn-hover {
+  width: 200px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  height: 55px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+
+  border-radius: 50px;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+  outline: none;
+}
+
+.btn-hover.color-10 {
+      background-image: linear-gradient(to right, #fd92a9, #fc6076, #ff9a44 , #ffb518);
+}
+
 
 /* Hero Section */
 
@@ -11,8 +58,9 @@ body{
     background-position: left;
   }
 
+
 /* Mis trabajos */
-  
+
   #Mis-trabajos .image-top {
     height: 250px;
     background-repeat: no-repeat;
@@ -20,9 +68,12 @@ body{
     background-position: center;
   }
 
+  /* Cards*/
+
   .card{
     border:none;
   }    
+  
   
 /* General button style*/
   .btn {
