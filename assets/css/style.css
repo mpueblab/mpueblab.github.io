@@ -57,7 +57,7 @@ body{
   }
 
 
-/* Mis trabajos */
+  /* Mis trabajos */
 
   #Mis-trabajos .image-top {
     height: 250px;
@@ -69,11 +69,11 @@ body{
   /* Cards*/
 
   .card{
-    border:none;
+    border: none;
   }    
   
   
-/* General button style*/
+  /* General button style*/
   .btn {
     font-size: inherit;
     padding: 10px 50px;
@@ -112,7 +112,7 @@ body{
   
   @media (max-width: 768px) {
     #Contacto form label {
-      font-weight: 400;
+      font-weight: 300;
     }
   
     .navbar-brand{
