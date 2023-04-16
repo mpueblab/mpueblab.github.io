@@ -89,18 +89,34 @@ body{
     transition: all 0.3s;
   }
 
+
+.btn-hover a{
+  text-decoration:none;
+  color: #fff;
+  
+}
+
   /* Button 4 */
   .btn-4 {
     background: #ffffff;
     border-radius: 50px;
-    color: #fd92a9;
     overflow: hidden;
     border: 1px solid #fd92a9;
   }
   
   .btn-4:hover {
     background: #fd92a9;
-    color: #ffffff;
+    color: #fff;
+  }
+
+  .btn-4 a{
+    text-decoration:none;
+    color: #fd92a9;
+  }
+
+  .btn-4 a:hover{
+    text-decoration:none;
+    color: #fff;
   }
   
   /* Contacto */
